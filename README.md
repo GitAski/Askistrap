@@ -8,6 +8,6 @@ writed on BASH
 # Встановлення через Makefile
 щоб встановити/оновити/видалити треба написати make та команду зараз доступно make install, make uninstall та make update який встановлює Askistrap в /opt/Askistrap та робить симлінк /opt/Askistrap/askistrap.sh в /bin під назвою askistrap
 # Встановлення
-```git clone https://github.com/GitAski/Askistrap.git```
+```git clone https://github.com/ItsAski/Askistrap.git```
 ```cd Askistrap```
 ```make install```
