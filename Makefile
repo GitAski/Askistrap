@@ -6,6 +6,7 @@ install:
 	sudo mkdir /opt/Askistrap
 	sudo cp -r * /opt/Askistrap
 	sudo ln -sf /opt/Askistrap/askistrap.sh /bin/askistrap
+	sudo chmod +x /bin/askistrap
 	clear && echo "Askistrap було встановлено"
 	
 uninstall:
@@ -19,4 +20,6 @@ update:
 	sudo rm -rf /opt/Askistrap
 	sudo mkdir /opt/Askistrap
 	sudo cp -r * /opt/Askistrap
+	sudo ln -sf /opt/Askistrap/askistrap.sh /bin/askistrap
+	sudo chmod +x /bin/askistrap
 	clear && echo "Askistrap було оновлено"
