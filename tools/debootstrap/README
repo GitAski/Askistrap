@@ -1,0 +1,7 @@
+DEBOOTSTRAP FOR ASKISTRAP
+-------------------------
+This is a debootstrap for askistrap
+Tool will be used to bootstrap debian or other system with askistrap
+--------------------------------------------------------------------
+I've deleted Makefile beacuse it's just installer but this version is portable
+And I've renamed debootstrap to debootstrap.sh
